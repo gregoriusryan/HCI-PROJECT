@@ -1,0 +1,372 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.logo img
+{
+    height: 15vh;
+    width: 15vh;
+}
+.list
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: -system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.list a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+
+.active a{
+    color: #cc6622;
+}
+
+html, .slider
+{
+    height: 100%;
+}
+.slider
+{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.slider-image
+{
+    width: 100%;
+    border: 0.1vh solid black;
+    height: 50vh;
+    margin: 0 1vh;
+}
+
+.slider-image img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.slide
+{
+    display: none;
+}
+
+.active
+{
+    display: block;
+}
+
+.belowSlider
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.bowl, .text
+{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 17%;
+}
+
+.bowl img
+{
+    height: 80%;
+    width: 45%;
+}
+
+.text1
+{
+    font-size: 200%;
+    color: #cc6622;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text2
+{
+    font-size: 150%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.block p
+{
+    color: #cc6622;
+}
+
+hr
+{
+    border-top: solid #cc6622;
+    color: #cc6622;
+}
+.textt p
+{
+    text-align: center;
+    color: #cc6622;
+    margin-top: 5%;
+    font-size: 200%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5%;
+}
+
+.card_view{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 20%;
+    height: 25rem;
+    box-shadow: 1px 1px 5px grey;
+    box-shadow: -1px -1px 5px grey;
+    text-align: center;
+    padding: 5px;
+    background-color: #e8e6e4;
+}
+
+.card img{
+    width: 60%;
+    height: 15rem;
+}
+
+.menu-desc, .price{
+    color: #cc6622;
+    font-size: x-large;
+}
+
+.menu-desc{
+    height: 15%;
+}
+
+
+.text3
+{
+    text-align: right;
+    margin-right: 3%;
+    margin-top: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #cc6622;
+    font-style: italic;
+    font-size: 150%;
+}
+.text3 a
+{
+    text-decoration: none;
+    color: #cc6622;
+}
+
+.footer p
+{
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cc6622; 
+}
+.footer
+{
+    margin-top: -0.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #e8e6e4;
+}
+
+@media only screen and (max-width: 800px)
+{
+    .header
+    {
+        width: 60%;
+        align-items: center;
+        margin: 0;
+    }
+
+    .logo img
+    {
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .list
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list div
+    {
+        width: max-content;
+    }
+    
+    .list p{
+        margin: 10px;
+        padding: 10px;
+        font-size: smaller;
+    }
+
+    .slider
+    {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    .bowl img
+    {
+        width: 70%;
+        height: 70%;
+    }
+
+    .bowl, .text
+    {
+        margin: 3rem;
+    }
+
+    .card
+    {
+        height: 15rem;
+    }
+
+    .card p
+    {
+        font-size: medium;
+    }
+    
+    .card img
+    {
+        width: 70%;
+        height: 7rem;
+    }
+    
+    .menu-desc, .price
+    {
+        color: #cc6622;
+        font-size: x-large;
+    }
+    
+    .menu-desc
+    {
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 650px)
+{
+    .header
+    {
+        width: 60%;
+        align-items: center;
+    }
+
+    .logo img
+    {
+        width: 10vh;
+        height: 10vh;
+    }
+
+    .list
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list div
+    {
+        width: 50%;
+    }
+    
+    .list p
+    {
+        font-size: 80%;
+    }
+
+    .list a
+    {
+        font-size: 90%;
+    }
+
+    .slider
+    {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    .slider-image
+    {
+        width: 100%;
+        border: 0.1vh solid black;
+        height: 20vh;
+        margin: 0 1vh;
+    }
+
+    .text1
+    {
+        font-size: 100%;
+        color: #cc6622;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .text2
+    {
+        font-size: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+
+    .bowl img
+    {
+        width: 60%;
+        height: 60%;
+    }
+
+    .bowl, .text
+    {
+        margin: 1.5rem;
+    }
+
+    .card
+    {
+        height: 15rem;
+    }
+
+    .card p
+    {
+        font-size: medium;
+    }
+    
+    .card img
+    {
+        width: 60%;
+        height: 5rem;
+    }
+    
+    .menu-desc, .price
+    {
+        color: #cc6622;
+        font-size: lar;
+    }
+    
+    .menu-desc
+    {
+        height: 30%;
+    }
+}

@@ -1,0 +1,298 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.logo img
+{
+    height: 15vh;
+    width: 15vh;
+}
+.list
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: -system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.list a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+
+.active a
+{
+    color: #cc6622;
+}
+
+.text
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cc682c;
+    font-size: 200%;
+}
+
+.belowHeader img
+{
+    width: 100%;
+    height: 25rem;
+}
+
+
+.text2
+{
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cc682c;
+    font-size: 130%;
+}
+.text3
+{
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cc682c;
+    font-size: 130%;
+}
+
+
+hr
+{
+    border-top: solid #cc6622;
+    color: #cc6622;
+}
+
+.content h2
+{
+    color: #cc6622;
+}
+
+.card_view
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    width: 25%;
+    height: 35rem;
+    box-shadow: 1px 1px 5px grey;
+    box-shadow: -1px -1px 5px grey;
+    text-align: center;
+    padding: 5px;
+    background-color: #e8e6e4;
+}
+
+.card img
+{
+    width: 50%;
+    height: 30%;
+}
+
+.menu_title
+{
+    height: 10%;
+}
+
+.menu-desc
+{
+    height: 30%;
+}
+
+.menu-desc, .price
+{
+    color: #cc6622;
+    font-size: 130%;
+}
+
+
+
+.footer p
+{
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cc6622; 
+}
+.footer
+{
+    margin-top: -0.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #e8e6e4;
+}
+
+
+
+@media only screen and (max-width: 800px)
+{
+    .header
+    {
+        width: 60%;
+        align-items: center;
+        margin: 0;
+    }
+
+    .logo img
+    {
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .list
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list div
+    {
+        width: max-content;
+    }
+    
+    .list p
+    {
+        margin: 10px;
+        padding: 10px;
+        font-size: smaller;
+    }
+
+    .text
+    {
+        font-size: 150%;
+    }
+
+    .belowHeader img
+    {
+        width: 100%;
+        height: 10rem;
+    }
+
+    .card
+    {
+        height: 25rem;
+    }
+
+    .menu_title
+    {
+        font-size: medium;
+    }
+
+    .card p
+    {
+        font-size: medium;
+    }
+    
+    .card img
+    {
+        width: 70%;
+        height: 7rem;
+    }
+    
+    .menu-desc, .price
+    {
+        color: #cc6622;
+        font-size: x-large;
+    }
+    
+    .menu-desc
+    {
+        height: 30%;
+    }
+}
+
+@media only screen and (max-width: 650px)
+{
+    .header
+    {
+        width: 60%;
+        align-items: center;
+    }
+
+    .logo img
+    {
+        width: 10vh;
+        height: 10vh;
+    }
+
+    .list
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list div
+    {
+        width: 50%;
+    }
+    
+    .list p
+    {
+        font-size: 80%;
+    }
+
+    .list a
+    {
+        font-size: 90%;
+    }
+
+    .menu_title
+    {
+        font-size: smaller;
+    }
+
+    .belowHeader img
+    {
+        width: 100%;
+        height: 5rem;
+    }
+
+    .card
+    {
+        height: 15rem;
+    }
+
+    .card p
+    {
+        font-size: xx-small;
+    }
+    
+    .card img
+    {
+        width: 40%;
+        height: 3rem;
+    }
+
+    .menu_title
+    {
+        font-size: x-small;
+    }
+    
+    .menu-desc, .price
+    {
+        color: #cc6622;
+        font-size: lar;
+    }
+    
+    .menu-desc
+    {
+        height: 30%;
+    }
+}

@@ -1,0 +1,210 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+hr
+{
+    border-top: solid #cc6622;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.logo img
+{
+    height: 15vh;
+    width: 15vh;
+}
+.list
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    font-family: -system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.list a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+
+.active a{
+    color: #cc6622;
+}
+
+form
+{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 20%;
+}
+h1
+{
+    font-size: 350%;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0.5, 0.4);
+
+}
+
+.isi
+{
+    background-image: url(../ASSET/res.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15vh;
+}
+
+
+.f
+{
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1%;
+    box-shadow: 2px 2px 10px grey;
+    border-radius: 5%;
+}
+
+.f p
+{
+    text-align: left;
+    margin-left: 15%;
+}
+
+.f p .text_field
+{
+    width: 80%;
+    padding: 1vh;
+}
+
+.f button
+{
+    padding: 2vh;
+    border-radius: 15%;
+}
+
+.footer p
+{
+    text-align: center;
+    font-size: 2vh;
+    color: #cc6622; 
+}
+.footer
+{
+    margin-top: -0.5%;
+    padding: 2%;
+    background-color: #e8e6e4;
+}
+
+
+@media only screen and (max-width: 800px)
+{
+    .header
+    {
+        width: 60%;
+        align-items: center;
+        margin: 0;
+    }
+
+    .logo img
+    {
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .list
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list div
+    {
+        width: max-content;
+    }
+    
+    .list p
+    {
+        margin: 10px;
+        padding: 10px;
+        font-size: smaller;
+    }
+
+    .f
+    {
+        background-color: white;
+        margin: 0 auto;
+        width: 90%;
+        padding: 1%;
+        border-radius: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 650px)
+{
+    .header
+    {
+        width: 60%;
+        align-items: center;
+    }
+
+    .logo img
+    {
+        width: 10vh;
+        height: 10vh;
+    }
+
+    .list
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list div
+    {
+        width: 50%;
+    }
+    
+    .list p
+    {
+        font-size: 80%;
+    }
+
+    .list a
+    {
+        font-size: 90%;
+    }
+
+    .f h1
+    {
+        font-size: smaller;
+    }
+
+    .f
+    {
+        background-color: white;
+        margin: 0 auto;
+        width: 100%;
+        padding: 1%;
+        border-radius: 5%;
+    }
+
+    .f p .text_field
+    {
+        width: 60%;
+    }
+
+    .f p
+    {
+        font-size: xx-small;
+    }
+
+}
