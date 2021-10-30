@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="../CSS/Reservationstyle.css">
+    <link rel="stylesheet" href="../JS/script.js">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+           <img src="../ASSET/Ababa Steak.png" alt="Ababa Steak">
+        </div>
+        <div class="list">
+            <div class="Home">
+                <p><a href="../HTML/Index.html">Home</a></p>
+            </div>
+            <div class="Menu">
+                <p><a href="../HTML/Menu.html">Menu</a></p>
+            </div>
+            <div class="Promo">
+                <p><a href="../HTML/Promo.html">Promo</a></p>
+            </div>
+            <div class="AboutUs">
+                <p><a href="../HTML/AboutUs.html">About Us</a></p>
+            </div>
+            <div class="Reservation active">
+                <p><a href="../HTML/Reservation.html">Reservation</a></p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="isi">
+        <div class="f">
+            <form onsubmit="return authenticate()">
+                <h1>Reservation</h1>
+                <p>Name <br><input type="text" class="text_field" id ="Name" placeholder="Name"></p> 
+                <p>Email <br><input type="Email" class="text_field" id="Email" placeholder="Email"></p>
+                <p>Reserve Date <br><input type="Date" class="text_field" id="ReserveDate" placeholder="Reserve Date"></p>
+                <p>Time <br><input type="time" class="text_field" id="TimeReserve" placeholder="Time Reserve"></p>
+                <p>Gender <br><input type="radio" name="Gender"> Male
+                <input type="radio" name="Gender"> Female </p>
+                <p>Many People <br><input type="number" class="text_field" id="ManyPeople" placeholder="Many People"></p>    
+                <div id="Error">
+                </div>
+                <button type="submit">Reserve</button>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <p>Copyright © 2021 ABABA Steak. All rights reserved</p>
+    </div>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
